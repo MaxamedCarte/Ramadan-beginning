@@ -22,6 +22,8 @@ h1{
   font-weight: normal;
   font-size: 3rem;
   margin-top: -10rem;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 .countdown{
@@ -52,10 +54,17 @@ h1{
 .countdown{
   grid-template-columns: repeat(2, 1fr);
 }
+h1{
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 0 0.5rem;
+}
 }
 @media (max-width: 576px) {
 h1{
   font-size: 1.9rem;
+  text-align: center;
+  padding: 0 0.5rem;
 }
 .bigText{
   font-size: 2.5rem;
